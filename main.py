@@ -30,7 +30,7 @@ class PinyinToneConverterWindow(QMainWindow):
 
         examples = QHBoxLayout()
         examples.setSpacing(24)
-        for word in ("bū", "bú", "bǔ", "bù"):
+        for word in ("mā má mǎ mà").split():
             label = QLabel(word)
             label.setAlignment(Qt.AlignmentFlag.AlignCenter)
             font = QFont(label.font())
