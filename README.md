@@ -1,1 +1,13 @@
 # cutie-pie-pinyin
+
+## Run
+
+Install the dependencies and launch the desktop app:
+
+```powershell
+python -m pip install -r requirements.txt
+python main.py
+```
+
+Enter numbered pinyin and press Enter to convert it. The result is selectable
+in the output field; use **Copy** to copy it to the clipboard.
