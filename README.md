@@ -1,4 +1,5 @@
 # cutie-pie-pinyin
+Qt UI wrapped around the existing `pinyin-tone-converter`.
 
 ## Run
 
